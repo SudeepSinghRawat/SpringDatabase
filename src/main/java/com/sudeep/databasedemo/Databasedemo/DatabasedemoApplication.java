@@ -25,8 +25,8 @@ public class DatabasedemoApplication  implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		
-		Course course = repo.findById(10001L);
-		logger.info("Course ->"+course.toString());
+		//Course course = repo.findById(10001L);
+		//logger.info("Course ->"+course.toString());
 		
 	}
 }
